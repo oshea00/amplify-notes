@@ -10,7 +10,7 @@ This is a React application created with npm create-react-app, so all the things
 
 #### AWS CLI and Account
 * If needed. Install the Amplify CLI https://docs.amplify.aws/cli/start/install
-* run `aws configure` - note if running on an EC2 instance using an instance role, you will not need to enter AWS ID or AWS SECRET, just need to provide your region (example: us-east-1). This will create the minimal `~/.aws/config`
+* run `aws configure` - note if running on an EC2 instance using an instance role, you will not need to enter AWS ID or AWS SECRET, just need to provide your region (example: us-east-1). This will create the minimal `~/.aws/config`. Amplify will then prompt for a "profile" which should be "default" unless you've already setup one under a different name or are using multiple AWS accounts - in which case enter the one you are targeting.
 
 #### Publishing
 * Review https://docs.amplify.aws/cli/start/workflows - for team environments see that subject in the Amplify docs.
